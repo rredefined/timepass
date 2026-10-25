@@ -10,21 +10,21 @@ import type { NavLink, Social, Stat, Card, Tech } from "@/types";
 
 /** Core identity: name, roles and the paragraph in the About section. */
 export const profile = {
-  name: "Ayle",
+  name: "Rekai",
   /** Shown directly under the name inside the hero panel. */
-  title: "AeroX Dev",
+  title: "ProX Dev",
   /** Shown under the page heading. */
   tagline: "DEVELOPER · DESIGNER",
   /** Large heading at the top of the page. */
   heading: "Portfolio",
   about:
-    "I'm Ayle, a developer and designer who builds fast, clean, responsive products for the web. I work mainly in TypeScript and JavaScript across the Node.js ecosystem, and reach for Python when a job calls for automation, scripting or data work. Alongside code I've spent years in design, editing, motion graphics and graphics work, so I can take an idea from a rough sketch all the way through to a shipped interface. I care about performance, accessible layouts that hold up on every screen size, and details that make an interface feel considered rather than assembled.",
+    "I'm Rekai, a developer and designer who builds fast, clean, responsive products for the web. I work mainly in TypeScript and JavaScript across the Node.js ecosystem, and reach for Python when a job calls for automation, scripting or data work. Alongside code I've spent years in design, editing, motion graphics and graphics work, so I can take an idea from a rough sketch all the way through to a shipped interface. I care about performance, accessible layouts that hold up on every screen size, and details that make an interface feel considered rather than assembled.",
 } as const;
 
 /** Browser tab title, meta description and social share card. */
 export const meta = {
-  url: "https://ayle-dev-portfolio.netlify.app",
-  title: "Ayle / Dev",
+  url: "https://rekaixp.cyou",
+  title: "Rekai / Dev",
   description: "I love pancakes",
   /** Image used as the link preview thumbnail on Discord, X, WhatsApp etc. */
   thumbnail: "/banner.gif",
@@ -47,16 +47,16 @@ export const navLinks: NavLink[] = [];
 
 /** Social profiles. Rendered in the navbar and in the mobile menu. */
 export const socials: Social[] = [
-  { name: "Discord", href: "https://discord.gg/aerox", handle: "discord.gg/aerox" },
-  { name: "Github", href: "https://github.com/ayliee", handle: "github.com/ayliee" },
-  { name: "Youtube", href: "https://youtube.com/@AeroXDev", handle: "@AeroXDev" },
+  { name: "Discord", href: "https://discord.gg/DDaXZByKy", handle: "https://discord.gg/DDaXZByKy" },
+  { name: "Github", href: "https://github.com/eirotf", handle: "github.com/eirotf" },
+  { name: "Youtube", href: "https://youtube.com/@rekaixp", handle: "@rekaixp" },
 ];
 
 /** Main call to action, used by the hero button and the mobile menu button. */
 export const callToAction = {
   label: "Projects",
   mobileLabel: "View Projects",
-  href: "https://github.com/ayliee",
+  href: "https://github.com/eirotf",
 } as const;
 
 /** Four small cards sitting above the About section. */
